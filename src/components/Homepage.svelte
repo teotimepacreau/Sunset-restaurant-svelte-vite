@@ -11,7 +11,7 @@
       <nav id="hero-nav">
         <menu id="hero-nav-menu">
           <li>Menu</li>
-          <li><a href="../reservation/index.html">Réservation</a></li>
+          <li><a href="/#/reservation">Réservation</a></li>
           <li>Notre histoire</li>
         </menu>
       </nav>
