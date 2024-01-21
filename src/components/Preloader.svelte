@@ -44,7 +44,7 @@
     document.body.style.overflowX = "hidden";
 
     let homeElementsToAnim = document.querySelectorAll(".home-anim");
-    console.log(homeElementsToAnim);
+
     homeElementsToAnim.forEach((element, index) => {
       gsap.fromTo(
         element,
@@ -52,6 +52,8 @@
         { y: "0dvh", opacity: 1, delay: index * 0.3 }
       );
     });
+
+    gsap.fromTo('#hero-nav-menu',{ opacity: 0, duration: 0.7, ease: "power4.out"}, { opacity: 1, delay: .3})
 
     console.log("Animation complete");
   };
